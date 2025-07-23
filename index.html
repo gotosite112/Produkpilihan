@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Promo Terbaru Shopee</title>
+  <meta name="description" content="Temukan promo terbaru dari Shopee dengan diskon menarik hari ini.">
+  <style>
+    body { font-family: sans-serif; text-align: center; padding: 50px; }
+    .spinner {
+      border: 8px solid #eee;
+      border-top: 8px solid orange;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      margin: auto;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+  <script>
+    const daftarLink = [
+
+"https://s.shopee.co.id/9zmoXkVveq",
+"https://s.shopee.co.id/9UqXwpXpfp",
+"https://s.shopee.co.id/9pTOLRWYzv",
+"https://s.shopee.co.id/9KX7kWYT0m",
+"https://s.shopee.co.id/9f9y98XCKs",
+"https://s.shopee.co.id/9ADhYDZ6Lr",
+"https://s.shopee.co.id/8zuHLuZjgo",
+"https://s.shopee.co.id/8Uy0kzbdhn",
+"https://s.shopee.co.id/8par9baN1l",
+"https://s.shopee.co.id/8KeaYgcH2k"
+
+    ];
+    const acak = Math.floor(Math.random() * daftarLink.length);
+    setTimeout(() => {
+      window.location.href = daftarLink[acak];
+    }, 1000); // 2 detik delay
+  </script>
+</head>
+<body>
+  <h1>🎁 Sedang Mencari Promo Terbaik?</h1>
+  <p>Tunggu sebentar... kami sedang mengarahkan Anda ke penawaran eksklusif di Shopee.</p>
+  <div class="spinner"></div>
+</body>
+</html>
